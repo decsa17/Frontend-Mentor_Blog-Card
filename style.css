@@ -1,0 +1,111 @@
+:root {
+    --yellow: #f4d04e;
+    --white: #fff;
+    --gray-950: #111;
+    --gray-500: #6b6b6b;
+}
+
+body {
+    background-color: var(--yellow);
+    width: auto;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: primary;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: primary-italic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    gap: 24px;
+    width: 384px;
+    height: auto;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.img-box {
+    min-width: 336px;
+    min-height: 200px;
+    /* margin: 24px; */
+    background-image: url(./assets/images/illustration-article.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 10px;
+}
+
+
+/* content box */
+.content {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.tag-box {
+    background-color: var(--yellow);
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+    font-family: primary;
+    /* padding: 10px; */
+}
+
+.tag-box h2 {
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.date {
+    font-family: primary;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title {
+    font-family: primary;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.description {
+    font-family: primary;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray-500);
+}
+/* end of content section */
+
+/* start of author */
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.author-thumbnail {
+    align-self: center;
+    margin-left: 24px;
+    margin-right: 12px;
+    height: 32px;
+    width: 32px;
+}
+.author-name {
+    justify-self: top;
+    font-family: primary;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
