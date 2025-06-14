@@ -58,7 +58,7 @@ body {
     border-radius: 5px;
     width: auto;
     display: inline-block;
-    font-family: primary;
+    font-family: primary, Arial, Helvetica, sans-serif
     /* padding: 10px; */
 }
 
@@ -69,19 +69,19 @@ body {
 }
 
 .date {
-    font-family: primary;
+    font-family: primary, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 500;
 }
 
 .title {
-    font-family: primary;
+    font-family: primary, Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 800;
 }
 
 .description {
-    font-family: primary;
+    font-family: primary, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: var(--gray-500);
@@ -103,8 +103,7 @@ body {
     width: 32px;
 }
 .author-name {
-    justify-self: top;
-    font-family: primary;
+    font-family: primary, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 800;
     margin-bottom: 10px;
