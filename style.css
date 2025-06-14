@@ -34,6 +34,7 @@ body {
     height: auto;
     border-radius: 10px;
     background-color: var(--white);
+    filter: drop-shadow(10px 10px 0px black)
 }
 
 .img-box {
@@ -74,10 +75,15 @@ body {
     font-weight: 500;
 }
 
+
 .title {
     font-family: primary, Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 800;
+}
+
+.title:hover {
+    color: var(--yellow);
 }
 
 .description {
